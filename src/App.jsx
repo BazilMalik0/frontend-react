@@ -5,7 +5,7 @@ function App() {
 
   const callBackend = async () => {
     const response = await fetch(
-      "https://backend-express-xyz.onrender.com/api/hello",
+      "https://backend-express-lz8e.onrender.com/api/hello",
     );
     const data = await response.json();
     setMessage(data.message);
